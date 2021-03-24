@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	 <link href='css\style.css' rel='stylesheet' type='text/css'>
+
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+	<div id="main">
+		<h3 id="heading">Details form</h3>
+		<hr class="separate">
+		<div id="form_div">
+
+			<label for="name">Name :</label>
+			<input type="text" placeholder="Enter your name" id="nameV"><br><br>
+			<label for="mob_no" class="lab">Mob. No. :</label>
+			<input type="tel" placeholder="Enter your mobile number" id="mob_no"><br><br>
+			<label for="email" class="lab">Email ID :</label>
+			<input type="email" placeholder="Enter your email address" id="email_id"><br><br><br>
+
+			<button id="submit_button" type="submit" onclick="check()">SUBMIT</button>
+			
+		</div>
+
+		<hr class="bottom">
+
+		<div id="result_div">
+			<table id="result">
+				<tr>
+					<th>Name</th>
+					<th>Mob No.</th>
+					<th>Email ID</th>
+					<th></th>
+				</tr>
+			</table>
+			
+		</div>
+
+	</div>
+
+
+     <script src="js\index.js"></script>
+
+</body>
+
+</html>
